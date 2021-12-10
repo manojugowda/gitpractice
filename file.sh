@@ -1,4 +1,5 @@
 #!/bin/bash
+#new line added
 echo "enter the pattern in the file"
 read pattern
 grep -R -l $pattern * > output
